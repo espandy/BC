@@ -16,28 +16,8 @@
 		<mysql-connector-java.version>5.1.34</mysql-connector-java.version>
 		<org.eclipse.jetty.version>8.1.8.v20121106</org.eclipse.jetty.version>
 	</properties>
-	
-	<repositories>
-		<repository>
-			<id>public</id>
-			<name>Public Repositories</name>
-			<url>http://112.124.117.99:8081/nexus/content/groups/public/</url>
-		</repository>
-		<repository>
-			<id>releases</id>
-			<name>Internal Releases</name>
-			<url>http://112.124.117.99:8081/nexus/content/repositories/releases/</url>
-		</repository>
-		<repository>
-			<id>snapshots</id>
-			<name>Internal Releases</name>
-			<url>http://112.124.117.99:8081/nexus/content/repositories/snapshots/</url>
-		</repository>
-	</repositories>
   
   <dependencies>
-  
-  
 	<!-- spring start -->  
   	<dependency>
 		<groupId>org.springframework</groupId>
