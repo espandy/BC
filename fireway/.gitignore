@@ -1,2 +1,4 @@
 #上传忽略名单
-.target
+*/target/
+/target/*
+/target/
