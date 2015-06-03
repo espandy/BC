@@ -1,5 +1,6 @@
 var locat = (window.location+'').split('/'); 
 locat =  locat[0]+'//'+locat[2]+'/'+locat[3];	//根路径
+//locat =  locat[0]+'//'+locat[2];
 
 //菜单状态切换
 var fmid = "fhindex";
@@ -176,6 +177,7 @@ function menu(){
 
 //切换菜单
 function changeMenu(){
+	alert(locat);
 	window.location.href=locat+'/main/yes';
 }
 
