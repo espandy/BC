@@ -3,10 +3,6 @@
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources/mybatis/information"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources/mybatis"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources/spring"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources/ftl"/>
         <property name="java-output-path" value="/FHM Maven Webapp/target/classes"/>
         <property name="context-root" value="fireway"/>
     </wb-module>

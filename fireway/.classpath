@@ -6,11 +6,7 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry excluding="webapp/|conf/|ftl/createCode/|ftl/|spring/|mybatis/system/|mybatis/|mybatis/information/|mybatis/information/|mybatis/|spring/|ftl/" including="**/*.java" kind="src" path="src/main/resources"/>
-	<classpathentry kind="src" path="src/main/resources/mybatis/information"/>
-	<classpathentry excluding="information/" kind="src" path="src/main/resources/mybatis"/>
-	<classpathentry kind="src" path="src/main/resources/spring"/>
-	<classpathentry kind="src" path="src/main/resources/ftl"/>
+	<classpathentry excluding="webapp/|conf/|ftl/createCode/" including="**/*.java" kind="src" path="src/main/resources"/>
 	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
