@@ -161,6 +161,7 @@ public class LoginController extends BaseController {
 		PageData pd = new PageData();
 		pd = this.getPageData();
 		try{
+			
 			//shiro管理的session
 			Subject currentUser = SecurityUtils.getSubject();  
 			Session session = currentUser.getSession();
